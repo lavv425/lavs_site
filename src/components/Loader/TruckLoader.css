@@ -1,0 +1,23 @@
+.truck-loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+    overflow: none;
+  }
+  
+  .truck-loader {
+    position: relative;
+    border-radius: 5px;
+    overflow: none;
+    animation: moveTruck .8s linear infinite;
+  }
+  @keyframes moveTruck {
+    0% {
+      transform: translateX(150%);
+    }
+    100% {
+      transform: translateX(-150%);
+    }
+  }
