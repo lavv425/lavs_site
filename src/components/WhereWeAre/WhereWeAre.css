@@ -1,0 +1,19 @@
+:root {
+  --navbar-height: 50px;
+}
+
+.page-container {
+  margin-top: calc(var(--navbar-height));
+}
+.page-header {
+  text-align: center;
+  padding: 1%;
+}
+.page-container {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - var(--navbar-height)-10px);
+}
+.map {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
