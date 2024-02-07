@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.87b16a91.css",
-    "main.js": "/static/js/main.fd5796dd.js",
+    "main.js": "/static/js/main.81f8423d.js",
     "static/js/592.b4727014.chunk.js": "/static/js/592.b4727014.chunk.js",
     "static/media/capanno.jpg": "/static/media/capanno.a1969098afc2836089d5.jpg",
     "static/media/logo.png": "/static/media/logo.cc9b5a74dbbfe4fa1ed2.png",
@@ -15,11 +15,11 @@
     "static/media/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw2aXp-p7K4KLjztg.woff2": "/static/media/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw2aXp-p7K4KLjztg.0b3c6f4dce7d85ce1fe9.woff2",
     "index.html": "/index.html",
     "main.87b16a91.css.map": "/static/css/main.87b16a91.css.map",
-    "main.fd5796dd.js.map": "/static/js/main.fd5796dd.js.map",
+    "main.81f8423d.js.map": "/static/js/main.81f8423d.js.map",
     "592.b4727014.chunk.js.map": "/static/js/592.b4727014.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87b16a91.css",
-    "static/js/main.fd5796dd.js"
+    "static/js/main.81f8423d.js"
   ]
 }
