@@ -2,3 +2,26 @@ Options -MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.html [QSA,L]
+#Non salvo su server
+ServerSignature Off
+
+#Reindirizzo ad HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#Impedire che prendano immagini da altri siti
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?example.com/.*$ [NC]
+RewriteRule \.(gif|jpg|jpeg|png)$ - [F]
+
+#Cache-control
+<FilesMatch "\.(html|htm|js|css|png|jpg|jpeg|gif|ico|svg)$">
+    Header set Cache-Control "max-age=3600, public"
+</FilesMatch>
+
+#CSRF e XSS attack prevention
+<IfModule mod_headers.c>
+    Header set X-XSS-Protection "1; mode=block"
+    Header always append X-Frame-Options SAMEORIGIN
+    Header set X-Content-Type-Options nosniff
+</IfModule>
