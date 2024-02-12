@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8941bff9.css",
+    "main.js": "/static/js/main.f2f0ac7b.js",
+    "static/js/592.e88b73ed.chunk.js": "/static/js/592.e88b73ed.chunk.js",
+    "static/media/TicketingImageHome.png": "/static/media/TicketingImageHome.dc3762b6cb27443a4a4b.png",
+    "static/media/TicketingImageProcedures.png": "/static/media/TicketingImageProcedures.9f1081e3574d2bf1505e.png",
+    "static/media/TicketingImageInsertTick.png": "/static/media/TicketingImageInsertTick.d3ce821157c9ee606421.png",
+    "static/media/TicketingImageAfterSolicit.png": "/static/media/TicketingImageAfterSolicit.59db81dbb276050eeed6.png",
+    "static/media/TicketingImageBeforeSolicit.png": "/static/media/TicketingImageBeforeSolicit.24ddaf518c42167e0d02.png",
+    "static/media/TicketingImageAccount.png": "/static/media/TicketingImageAccount.62bc354964d1b198ad39.png",
+    "static/media/propic.jpeg": "/static/media/propic.5282d72a9d0b5012243a.jpeg",
+    "static/media/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48M1wqxnDirZPl3v-.woff2": "/static/media/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48M1wqxnDirZPl3v-.0dc31d8d585b4afc4a41.woff2",
+    "static/media/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48M1wpRnDirZPl3v-qzs.woff2": "/static/media/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48M1wpRnDirZPl3v-qzs.0b5ad10e618a1a492ecd.woff2",
+    "static/media/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48M1wpBnDirZPl3v-qzs.woff2": "/static/media/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48M1wpBnDirZPl3v-qzs.2f559cbc171700b2bb4d.woff2",
+    "static/media/FeV8S05Gp6Et7FcfbPFK1rynGd_MxtkvNFmoUDFhgF2VKTGQk6vapeOM2mOIhIya6rA.woff2": "/static/media/FeV8S05Gp6Et7FcfbPFK1rynGd_MxtkvNFmoUDFhgF2VKTGQk6vapeOM2mOIhIya6rA.5e5dd92c46290d021360.woff2",
+    "static/media/FeV8S05Gp6Et7FcfbPFK1rynGd_MxtkvNFmoUDFhgF2VKTGQk6vapePw2mOIhIya6rAvRw.woff2": "/static/media/FeV8S05Gp6Et7FcfbPFK1rynGd_MxtkvNFmoUDFhgF2VKTGQk6vapePw2mOIhIya6rAvRw.697fd99f4650136f30c6.woff2",
+    "static/media/FeV8S05Gp6Et7FcfbPFK1rynGd_MxtkvNFmoUDFhgF2VKTGQk6vapePi2mOIhIya6rAvRw.woff2": "/static/media/FeV8S05Gp6Et7FcfbPFK1rynGd_MxtkvNFmoUDFhgF2VKTGQk6vapePi2mOIhIya6rAvRw.7d89aea787be31a97c78.woff2",
+    "index.html": "/index.html",
+    "main.8941bff9.css.map": "/static/css/main.8941bff9.css.map",
+    "main.f2f0ac7b.js.map": "/static/js/main.f2f0ac7b.js.map",
+    "592.e88b73ed.chunk.js.map": "/static/js/592.e88b73ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8941bff9.css",
+    "static/js/main.f2f0ac7b.js"
+  ]
+}
