@@ -1,9 +1,12 @@
 Options -MultiViews
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.html [QSA,L]
-#Non salvo su server
-ServerSignature Off
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+  
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ /index.html [L]
+</IfModule>
 
 #Reindirizzo ad HTTPS
 RewriteCond %{HTTPS} !=on
@@ -15,7 +18,7 @@ RewriteCond %{HTTP_REFERER} !^http://(www\.)?example.com/.*$ [NC]
 RewriteRule \.(gif|jpg|jpeg|png)$ - [F]
 
 #Cache-control
-<FilesMatch "\.(html|htm|js|css|png|jpg|jpeg|gif|ico|svg)$">
+<FilesMatch "\.(html|htm|js|css|png|jpg|jpeg|ico|svg)$">
     Header set Cache-Control "max-age=3600, public"
 </FilesMatch>
 
